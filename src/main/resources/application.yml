@@ -1,0 +1,15 @@
+info:
+  component: Redis Utils
+
+server:
+  port: 7770
+  ssl:
+    enabled: false
+
+logging:
+  level:
+    org.sample: ERROR
+
+refresh.key: somekey
+redis.host: localhost
+redis.port: 6379
